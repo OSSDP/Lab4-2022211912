@@ -30,7 +30,7 @@ public class L2022211912_10_Test {
      */
     @Test
     public void testEqualFractions() {
-        assertEquals("1/1", solution.fractionAddition("-1/2+1/2"));
+        assertEquals("0/1", solution.fractionAddition("-1/2+1/2"));
     }
 
     /**
