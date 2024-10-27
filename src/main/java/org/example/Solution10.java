@@ -5,7 +5,6 @@ class Solution10 {
         long numerator = 0, denominator = 1; // 分子，分母
         int index = 0, n = expression.length();
         while (index < n) {
-
             // 读取分子
             long numeratorPart = 0, sign = 1;
             if (expression.charAt(index) == '-' || expression.charAt(index) == '+') {
